@@ -17,8 +17,8 @@ namespace batch_rename
     {
         private string currentDir; // 当前目录
         private bool is_asc = false; // 是否为升序？
-        private string[] filters = { "*.jpg", ".png", "*.bmp", "*.dib", "*.jpeg", "*.txt", "*.*" };
-        private string[] pictureFilters = { "*.jpg", ".png", "*.bmp", "*.dib", "*.jpeg" };
+        private string[] filters = { "*.jpg", "*.png", "*.bmp", "*.dib", "*.jpeg", "*.txt", "*.*" };
+        private string[] pictureFilters = { "*.jpg", "*.png", "*.bmp", "*.dib", "*.jpeg" };
         private HashSet<string> filterSet;
         private HashSet<string> pictureFilterSet; // 图片文件后缀集合
 
